@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto');
+
+
+/* Nav bar styles */
+nav {
+  height: 50px;
+  background: #291528;
+}
+
+.company-name {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  padding: 15px;
+  font-size: 20px;
+  color: #F0EFF4;
+}
+
+nav ul {
+  position: absolute;
+  right: 5px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: #F0EFF4;
+  padding: 5px;
+  margin: 5px;
+}
+
+/* home page container */
+.home {
+  background: url("../images/homeBack.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+/* Home header */
+.home header {
+  color: #F0EFF4;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+/* About page header */
+.about header {
+  margin: 150px auto 0 auto;
+  width: 500px;
+}
+
+.about header h1 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #9E829C;
+}
+
+.about header p {
+  text-align: justify;
+  font-family: 'Lato', sans-serif;
+  color: #3A3E3B;
+}
+
+/* Services page header */
+.services header {
+  margin: 80px auto 0 auto;
+  text-align: center;
+}
+
+.services header h1 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #9E829C;
+}
+
+.services header article ul {
+  padding: 0;
+}
+
+.services header article ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 20px;
+  width: 300px;
+}
+
+.services header article ul li p {
+  text-align: justify;
+  font-family: 'Lato', sans-serif;
+  color: #3A3E3B;
+}
+
+/*contact page header */
+.contact header {
+  margin: 80px auto 0 auto;
+  text-align: center;
+}
+
+.contact header h1 {
+  font-family: 'Roboto', sans-serif;
+  color: #9E829C;
+}
+
+.contact header article {
+  font-family: 'Lato', sans-serif;
+  color: #3A3E3B;
+}
